@@ -1,9 +1,8 @@
 document.getElementById('sendMessage').addEventListener('click', function() {
     // Obtenha os valores do formulário
-    const name = document.querySelector('input[name="name"]').value;
-    const email = document.querySelector('input[name="email"]').value;
-    const subject = document.querySelector('input[name="subject"]').value;
-    const message = document.querySelector('textarea[name="message"]').value;
+    const nameField = document.querySelector('input[name="name"]');
+    const emailField = document.querySelector('input[name="email"]');
+    const subjectField = document.querySelector('input[name="subject"]');
     const errorMessage = document.querySelector('.error-message');
     const sentMessage = document.querySelector('.sent-message');
 
@@ -12,19 +11,34 @@ document.getElementById('sendMessage').addEventListener('click', function() {
     sentMessage.style.display = 'none';
 
     // Validação simples
-    if (!name || !email || !subject || !message) {
-        alert('Por favor, preencha todos os campos.');
+    if (!nameField.value) {
+        alert('Por favor, preencha o nome. Exemplo: João Silva');
+        nameField.focus();
+        return;
+    }
+
+    if (!emailField.value) {
+        alert('Por favor, preencha o email. Exemplo: pedrotiago@gmail.com');
+        emailField.focus();
+        return;
+    }
+
+    if (!subjectField.value) {
+        alert('Por favor, dê uma sugestão para o espaço');
+        subjectField.focus();
         return;
     }
 
     // Validar email
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailPattern.test(email)) {
-        alert('Por favor, insira um email válido.');
+    if (!emailPattern.test(emailField.value)) {
+        alert('Por favor, insira um email válido. Exemplo: pedrotiago@gmail.com');
+        emailField.focus();
         return;
     }
 
     // Se tudo estiver correto, mostre a mensagem de sucesso
+    sentMessage.innerHTML = 'Mensagem enviada com sucesso! Obrigado pelo seu contato.';
     sentMessage.style.display = 'block';
 
     // Limpar o formulário

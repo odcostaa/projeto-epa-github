@@ -5,7 +5,8 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Revitalizando Espaços: Sustentabilidade e Parcerias para um Futuro Melhor</title>
-  <meta name="description" content="Projeto do Etec de portas abertas, incentiva e proporciona soluçoes para areas inutilizadas dentro de um ambiente social.">
+  <meta name="description"
+    content="Projeto do Etec de portas abertas, incentiva e proporciona soluçoes para areas inutilizadas dentro de um ambiente social.">
   <meta name="keywords" content="Sustentável, Projeto, Etec Hortolândia, Etec, Espaços">
   <meta name="Author" content="Diogo Costa">
 
@@ -16,7 +17,9 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -46,16 +49,24 @@
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Revitalizando Espaços<img src="assets/img/Logotipo-projeto-simples-Photoroom.png" alt=""></h1>
+        <h1 class="sitename">Revitalizando Espaços<img src="assets/img/Logotipo-projeto-simples-Photoroom.png" alt="">
+        </h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">Sobre</a></li>
+          <!-- <li><a href="#about">Sobre</a></li> -->
+          <li class="dropdown"><a href="#"><span>Sobre</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#about">Introdução</a></li>
+              <li><a href="#features">ODS´s</a></li>
+              <li><a href="#projeto">Projeto</a></li>
+              <li><a href="#acontece-etec">Acontece na Etec</a></li>
+            </ul>
+          </li>
           <li><a href="#services">Solução</a></li>
-          <li><a href="#projeto">Projeto</a></li>
-<!--      <li><a href="#portfolio">Fotografias</a></li>       --> 
+          <!--      <li><a href="#portfolio">Fotografias</a></li>       -->
           <li><a href="#faq">FAQ</a></li>
           <li><a href="#team">Equipe</a></li>
           <li><a href="#contact">Contato</a></li>
@@ -76,8 +87,12 @@
         <!-- Slide 1 -->
         <div class="carousel-item active">
           <div class="carousel-container">
-            <h2 class="animate__animated animate__fadeInDown">Apresentamos nosso <span><a href="#projeto" style="color: white;">Projeto</a></span></h2>
-            <p class="animate__animated animate__fadeInUp">Olá! Apresentamos aqui nosso projeto de hortas, e muito mais, na Etec de Hortolândia, que visa transformar espaços inutilizados em áreas produtivas. O objetivo é usufruir dos espaços inutilizados da escola para cultivar alimentos frescos, promovendo a educação ambiental e a solidariedade na comunidade escolar.</p>
+            <h2 class="animate__animated animate__fadeInDown">Apresentamos nosso <span><a href="#projeto"
+                  style="color: white;">Projeto</a></span></h2>
+            <p class="animate__animated animate__fadeInUp">Olá! Apresentamos aqui nosso projeto de hortas, e muito mais,
+              na Etec de Hortolândia, que visa transformar espaços inutilizados em áreas produtivas. O objetivo é
+              usufruir dos espaços inutilizados da escola para cultivar alimentos frescos, promovendo a educação
+              ambiental e a solidariedade na comunidade escolar.</p>
             <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Saiba mais</a>
           </div>
         </div>
@@ -85,8 +100,12 @@
         <!-- Slide 2 -->
         <div class="carousel-item">
           <div class="carousel-container">
-            <h2 class="animate__animated animate__fadeInDown">Criados com base em <span>ODS´s</span></h2>
-            <p class="animate__animated animate__fadeInUp">Este projeto foi desenvolvido com base em três Objetivos de Desenvolvimento Sustentável (ODS), que orientam nossas ações em direção a um futuro mais sustentável. Ao integrar esses princípios, buscamos não apenas um simples projeto, mas também incentivar a educação e a proteção ambiental.</p>
+            <h2 class="animate__animated animate__fadeInDown">Criados com base em <span><a href="#features"
+                  style="color: white;">ODS´s</a></span></h2>
+            <p class="animate__animated animate__fadeInUp">Este projeto foi desenvolvido com base em três Objetivos de
+              Desenvolvimento Sustentável (ODS), que orientam nossas ações em direção a um futuro mais sustentável. Ao
+              integrar esses princípios, buscamos não apenas um simples projeto, mas também incentivar a educação e a
+              proteção ambiental.</p>
             <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Saiba mais</a>
           </div>
         </div>
@@ -95,7 +114,10 @@
         <div class="carousel-item">
           <div class="carousel-container">
             <h2 class="animate__animated animate__fadeInDown">Sustentabilidade e apoio</h2>
-            <p class="animate__animated animate__fadeInUp">Nosso projeto é fundamentado em práticas sustentáveis que garantem a preservação do meio ambiente, utilizando recursos de forma consciente. Além disso, ele oferece apoio à Etec de Hortolândia e outras instituições necessitadas, fornecendo ideias de como utilizar áreas sem ocupação em ambientes sociais.</p>
+            <p class="animate__animated animate__fadeInUp">Nosso projeto é fundamentado em práticas sustentáveis que
+              garantem a preservação do meio ambiente, utilizando recursos de forma consciente. Além disso, ele oferece
+              apoio à Etec de Hortolândia e outras instituições necessitadas, fornecendo ideias de como utilizar áreas
+              sem ocupação em ambientes sociais.</p>
             <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Saiba mais</a>
           </div>
         </div>
@@ -110,7 +132,8 @@
 
       </div>
 
-      <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28 " preserveAspectRatio="none">
         <defs>
           <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
         </defs>
@@ -142,7 +165,8 @@
 
           <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
             <p>
-              Buscamos mapear as áreas de terras inutilizadas de escolas e demais locais sociais e propor sugestões de utilização do mesmo para melhor proveito ambiental e social.
+              Buscamos mapear as áreas de terras inutilizadas de escolas e demais locais sociais e propor sugestões de
+              utilização do mesmo para melhor proveito ambiental e social.
             </p>
             <ul>
               <li><i class="bi bi-check2-circle"></i> <span>Aproveitamento de Espaços Abandonados.</span></li>
@@ -152,7 +176,8 @@
           </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <p>Para complementar o projeto, precisamos de você! Auxilie-nos no projeto, e compartilhe sua ideia conosco.</p>
+            <p>Para complementar o projeto, precisamos de você! Auxilie-nos no projeto, e compartilhe sua ideia conosco.
+            </p>
             <a href="#contact" class="read-more"><span>Enviar suguestão</span><i class="bi bi-arrow-right"></i></a>
           </div>
 
@@ -189,14 +214,18 @@
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                 <h3>ODS 15 - Vida terrestre</h3>
                 <p class="fst-italic">
-                  Objetivo 15. Proteger, recuperar e promover o uso sustentável dos ecossistemas terrestres, gerir de forma sustentável as florestas, combater a desertificação, deter e reverter a degradação da terra e deter a perda de biodiversidade. <br> <b>Objetivos específicos:</b>
+                  Objetivo 15. Proteger, recuperar e promover o uso sustentável dos ecossistemas terrestres, gerir de
+                  forma sustentável as florestas, combater a desertificação, deter e reverter a degradação da terra e
+                  deter a perda de biodiversidade. <br> <b>Objetivos específicos:</b>
                 </p>
                 <ul>
                   <li><i class="bi bi-check2-all"></i>
                     <span>15.1: Conservação e uso sustentável dos ecossistemas terrestres.</span>
                   </li>
-                  <li><i class="bi bi-check2-all"></i> <span>15.3: Combater a desertificação e restaurar terras degradadas</span>.</li>
-                  <li><i class="bi bi-check2-all"></i> <span>15.5: Reduzir a degradação de habitats naturais e perda de biodiversidade. </span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>15.3: Combater a desertificação e restaurar terras
+                      degradadas</span>.</li>
+                  <li><i class="bi bi-check2-all"></i> <span>15.5: Reduzir a degradação de habitats naturais e perda de
+                      biodiversidade. </span></li>
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
@@ -210,15 +239,18 @@
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                 <h3>ODS 17 - Parcerias e meios de implementação</h3>
                 <p>
-                  Objetivo 17. Fortalecer os meios de implementação e revitalizar a parceria global para o desenvolvimento sustentável. <br> <b>Objetivos específicos:</b>
+                  Objetivo 17. Fortalecer os meios de implementação e revitalizar a parceria global para o
+                  desenvolvimento sustentável. <br> <b>Objetivos específicos:</b>
                 </p>
                 <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore
                   magna aliqua.
                 </p>
                 <ul>
                   <li><i class="bi bi-check2-all"></i> <span>17.9: Aumentar a capacitação e o suporte.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>17.16: Fortalecer a parceria global para o desenvolvimento sustentável.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>17.16: Fortalecer a parceria global para o desenvolvimento
+                      sustentável.</span></li>
                   <li><i class="bi bi-check2-all"></i> <span>17.17: Incentivar parcerias eficazes.</span></li>
                 </ul>
               </div>
@@ -233,17 +265,23 @@
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                 <h3>Voluptatibus commodi ut accusamus ea repudiandae ut autem dolor ut assumenda</h3>
                 <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                  voluptate
+                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                  sunt in
                   culpa qui officia deserunt mollit anim id est laborum
                 </p>
                 <ul>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate
+                      velit.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Provident mollitia neque rerum asperiores dolores quos qui
+                      a. Ipsum neque dolor voluptate nisi sed.</span></li>
                 </ul>
                 <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore
                   magna aliqua.
                 </p>
               </div>
@@ -253,36 +291,164 @@
             </div>
           </div><!-- End Tab Content Item -->
 
-          <!-- <div class="tab-pane fade" id="features-tab-4">
+        </div>
+
+        <!--Projeto Section-->
+        <section id="projeto">
+          <div class="tab-pane fade active show" id="features-tab-1">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Omnis fugiat ea explicabo sunt dolorum asperiores sequi inventore rerum</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
+                <h3>Pequenos espaços que fazem a diferença.</h3>
                 <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
+                  "Transformando espaços esquecidos em vida, cultivando sustentabilidade e solidariedade para um futuro
+                  mais verde e consciente."
                 </p>
-                <ul>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
-                </ul>
+                <!-- <ul>
+              <li><i class="bi bi-check2-all"></i>
+                <spab>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</spab>
+              </li>
+              <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit</span>.</li>
+              <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+              </ul> -->
+                <p>
+                  Na Etec de Hortolândia, será implementado um projeto que transformará diversos espaços de terra
+                  inutilizados ao redor da escola em pequenas hortas. A iniciativa, que ainda está em andamento, tem
+                  como objetivo aproveitar essas áreas ociosas de forma sustentável e produtiva, beneficiando tanto a
+                  comunidade escolar quanto a sociedade local.
+                  As hortas serão utilizadas para o cultivo de uma variedade de alimentos, como hortaliças e legumes,
+                  que futuramente servirão para projetos pedagógicos e serão doados a famílias carentes e instituições.
+                  A expectativa é que, além de revitalizar a estética da escola, o projeto promova a conscientização
+                  ambiental e práticas sustentáveis entre os alunos.
+                  Cada um desses pequenos espaços de terra, mesmo os mais reduzidos, fará diferença ao ser aproveitado,
+                  mostrando o potencial de áreas que antes eram esquecidas. A meta é que essas hortas contribuam para a
+                  alimentação escolar e para a doação de alimentos, reforçando o papel da escola como um agente de
+                  mudança social.
+                  O projeto envolverá alunos, professores e funcionários, que colaborarão em conjunto para transformar
+                  essas áreas, tornando-as produtivas e capazes de gerar impacto positivo na comunidade. Será uma
+                  oportunidade de aprendizado e ação coletiva, com foco em sustentabilidade e solidariedade.
+                </p>
               </div>
+
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/working-4.jpg" alt="" class="img-fluid">
+                <img src="assets/img/Logotipo-projeto-simples-Photoroom.png" alt=""
+                  class="logo-projeto-parte-descricao-do-projeto">
               </div>
             </div>
-          </div>--> <!-- End Tab Content Item -->
-
-        </div>
+            <div class="image-align-center">
+              <img src="assets/img/horta.jpg" alt="">
+            </div>
+          </div><!-- End Tab Content Item -->
+        </section><!--/Projeto Section-->
 
       </div>
 
     </section><!-- /Features Section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <div class="container">
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+        </div>
+
+        <!--ACONTECE NA ETEC SECTION-->
+        <section id="acontece-etec">
+          <div class="tab-pane fade active show" id="features-tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Acontece na Etec</h3>
+                <p class="fst-italic">
+                  O que é feito hoje na Etec de Hortolândia para combater esse tipo de problema?
+                </p>
+                <p>
+                  Na Etec de Hortolândia, além da criação de pequenas hortas em espaços inutilizados ao redor da escola,
+                  um novo projeto, dirigido pelo professor Joãozinho, pretende otimizar o uso da água de maneira
+                  sustentável. A iniciativa inovadora propõe coletar a água que pinga dos aparelhos de ar condicionado
+                  da escola para utilizá-la na irrigação das hortas. Essa solução busca reaproveitar um recurso que
+                  seria desperdiçado, contribuindo tanto para a economia de água quanto para a sustentabilidade do
+                  projeto.
+
+                  A água recolhida será direcionada para o cultivo das hortaliças e legumes plantados nas áreas
+                  revitalizadas. Isso não apenas garante a manutenção das plantações, mas também reforça a importância
+                  do uso consciente dos recursos naturais entre os alunos. O projeto é um exemplo prático de como
+                  pequenas ações podem gerar impactos positivos, tanto no ambiente escolar quanto na comunidade local.
+
+                  Essa iniciativa faz parte de um esforço mais amplo de promover práticas ambientais responsáveis e
+                  integrá-las ao dia a dia dos estudantes, professores e funcionários. A expectativa é que o uso da água
+                  dos aparelhos de ar condicionado ajude a tornar o cultivo ainda mais eficiente, além de servir como
+                  base para futuras ações voltadas à sustentabilidade.
+                </p>
+              </div>
+            </div>
+
+            <div class="image-align-center">
+              <img src="horta-joaozinho-foto" alt="">
+            </div>
+
+          </div><!-- End Tab Content Item -->
+        </section><!--/Projeto Section-->
+
+      </div>
+
+    </section><!-- /Features Section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- Services Section -->
     <section id="services" class="services section">
@@ -305,7 +471,7 @@
               <a class="stretched-link">
                 <h3>Áreas verdes</h3>
               </a>
-              <p>Transformar este tipo de espaço inutilizado em áreas verdes e sustentáveis.  </p>
+              <p>Transformar este tipo de espaço inutilizado em áreas verdes e sustentáveis. </p>
             </div>
           </div><!-- End Service Item -->
 
@@ -317,7 +483,8 @@
               <a class="stretched-link">
                 <h3>Horta</h3>
               </a>
-              <p>Cultivar alimentos nestes espaços é uma ótima ideia para consumo na propria escola e em outras instituições necessitadas!</p>
+              <p>Cultivar alimentos nestes espaços é uma ótima ideia para consumo na propria escola e em outras
+                instituições necessitadas!</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -329,10 +496,11 @@
               <a class="stretched-link">
                 <h3>Sugestões</h3>
               </a>
-              <p>Receber, avaliar, e republicar sugestões enviadas por vocês, para combater este problema em outros locais necessitados.</p>
+              <p>Receber, avaliar, e republicar sugestões enviadas por vocês, para combater este problema em outros
+                locais necessitados.</p>
             </div>
           </div><!-- End Service Item -->
-          
+
           <div class="container section-title" id="section-title-problemas" data-aos="fade-up">
             <h2>Problemas</h2>
             <p>Problemas a combater</p>
@@ -346,7 +514,8 @@
               <a class="stretched-link">
                 <h3>Desperdício de Espaço</h3>
               </a>
-              <p>Há muitos espaços sendo desperdiçados, acumulando lixo e tornando-se locais de degradação, prejudicando a estética e o meio ambiente por diversos lugares do mundo.</p>
+              <p>Há muitos espaços sendo desperdiçados, acumulando lixo e tornando-se locais de degradação, prejudicando
+                a estética e o meio ambiente por diversos lugares do mundo.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -358,7 +527,8 @@
               <a class="stretched-link">
                 <h3>Falta de Alimentos Frescos</h3>
               </a>
-              <p>Muitas comunidades enfrentam dificuldade no acesso a alimentos frescos e saudáveis, agravando a insegurança alimentar e a má nutrição. Que tal utilizar estes espaços para cultivar?</p>
+              <p>Muitas comunidades enfrentam dificuldade no acesso a alimentos frescos e saudáveis, agravando a
+                insegurança alimentar e a má nutrição. Que tal utilizar estes espaços para cultivar?</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -370,25 +540,27 @@
               <a class="stretched-link">
                 <h3>Desconexão com a Natureza</h3>
               </a>
-              <p>A urbanização afasta as pessoas do contato com a natureza, resultando em menor conscientização ambiental e práticas pouco sustentáveis no dia a dia. Utilizar estas áreas pode trazer maior conscientização na comunidade.</p>
+              <p>A urbanização afasta as pessoas do contato com a natureza, resultando em menor conscientização
+                ambiental e práticas pouco sustentáveis no dia a dia. Utilizar estas áreas pode trazer maior
+                conscientização na comunidade.</p>
             </div>
           </div><!-- End Service Item -->
 
         </div>
 
         <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
+        <section id="testimonials" class="testimonials section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Sugestões</h2>
-        <p>O que sugerem para os espaços</p>
-      </div><!-- End Section Title -->
+          <!-- Section Title -->
+          <div class="container section-title" data-aos="fade-up">
+            <h2>Sugestões</h2>
+            <p>O que sugerem para os espaços</p>
+          </div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
+            <div class="swiper init-swiper">
+              <script type="application/json" class="swiper-config">
             {
               "loop": true,
               "speed": 600,
@@ -413,344 +585,399 @@
               }
             }
           </script>
-          <div class="swiper-wrapper">
+              <div class="swiper-wrapper">
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/sem-foto.jpg" class="testimonial-img" alt="">
-                <h3>Tiago Henrique</h3>
-                <h4>Horta</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Criar uma horta onde os alunos possam aprender sobre cultivo, sustentabilidade e alimentação saudável. Envolver os estudantes no plantio e cuidado das plantas.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="assets/img/sem-foto.jpg" class="testimonial-img" alt="">
+                    <h3>Tiago Henrique</h3>
+                    <h4>Horta</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>Criar uma horta onde os alunos possam aprender sobre cultivo, sustentabilidade e alimentação
+                        saudável. Envolver os estudantes no plantio e cuidado das plantas.</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/sem-foto.jpg " class="testimonial-img" alt="">
-                <h3>Sara Borges</h3>
-                <h4>Lazer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Desenvolver um espaço com bancos, mesas e sombra para leitura, jogos e socialização. Incluir elementos como uma pequena quadra ou playground para atividades físicas.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="assets/img/sem-foto.jpg " class="testimonial-img" alt="">
+                    <h3>Sara Borges</h3>
+                    <h4>Lazer</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>Desenvolver um espaço com bancos, mesas e sombra para leitura, jogos e socialização. Incluir
+                        elementos como uma pequena quadra ou playground para atividades físicas.</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/sem-foto.jpg" class="testimonial-img" alt="">
-                <h3>Alanis Pereira</h3>
-                <h4>Mural interativo</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Incentivar a criação de murais e instalações artísticas com a participação dos alunos. Isso promove a expressão criativa e embeleza o ambiente.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="assets/img/sem-foto.jpg" class="testimonial-img" alt="">
+                    <h3>Alanis Pereira</h3>
+                    <h4>Mural interativo</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>Incentivar a criação de murais e instalações artísticas com a participação dos alunos. Isso
+                        promove a expressão criativa e embeleza o ambiente.</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/sem-foto.jpg" class="testimonial-img" alt="">
-                <h3>Mateus Ceará</h3>
-                <h4>Aulas ao ar livre</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Criar um espaço para aulas ao ar livre, com informações sobre a flora local, práticas de conservação e educação ambiental. Realizar atividades de conscientização e workshops.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="assets/img/sem-foto.jpg" class="testimonial-img" alt="">
+                    <h3>Mateus Ceará</h3>
+                    <h4>Aulas ao ar livre</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>Criar um espaço para aulas ao ar livre, com informações sobre a flora local, práticas de
+                        conservação e educação ambiental. Realizar atividades de conscientização e workshops.</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/sem-foto.jpg" class="testimonial-img" alt="">
-                <h3>João Pedro</h3>
-                <h4>Jardim</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Transformar o espaço em um jardim que estimule os sentidos, com plantas aromáticas, texturas variadas e elementos sonoros. Ideal para atividades sensoriais e educativas.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="assets/img/sem-foto.jpg" class="testimonial-img" alt="">
+                    <h3>João Pedro</h3>
+                    <h4>Jardim</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>Transformar o espaço em um jardim que estimule os sentidos, com plantas aromáticas, texturas
+                        variadas e elementos sonoros. Ideal para atividades sensoriais e educativas.</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
               </div>
-            </div><!-- End testimonial item -->
+              <div class="swiper-pagination"></div>
+            </div>
 
           </div>
-          <div class="swiper-pagination"></div>
-        </div>
 
-      </div>
+        </section><!-- /Testimonials Section -->
 
-    </section><!-- /Testimonials Section -->
+        <!-- Faq Section -->
+        <section id="faq" class="faq section">
+          <!-- Section Title -->
+          <div class="container section-title" data-aos="fade-up">
+            <h2>Perguntas frequentes</h2>
+            <p>Perguntas frequentes</p>
+          </div><!-- End Section Title -->
 
-    <!--Projeto Section-->
-    <section id="projeto">
-      <div class="tab-pane fade active show" id="features-tab-1">
-        <div class="row">
-          <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-            <h3>Pequenos espaços que fazem a diferença.</h3>
-            <p class="fst-italic">
-              "Transformando espaços esquecidos em vida, cultivando sustentabilidade e solidariedade para um futuro mais verde e consciente."
-            </p>
-            <!-- <ul>
-              <li><i class="bi bi-check2-all"></i>
-                <spab>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</spab>
-              </li>
-              <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit</span>.</li>
-              <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
-            </ul> -->
-            <p>
-              Na Etec de Hortolândia, será implementado um projeto que transformará diversos espaços de terra inutilizados ao redor da escola em pequenas hortas. A iniciativa, que ainda está em andamento, tem como objetivo aproveitar essas áreas ociosas de forma sustentável e produtiva, beneficiando tanto a comunidade escolar quanto a sociedade local.
-              As hortas serão utilizadas para o cultivo de uma variedade de alimentos, como hortaliças e legumes, que futuramente servirão para projetos pedagógicos e serão doados a famílias carentes e instituições. A expectativa é que, além de revitalizar a estética da escola, o projeto promova a conscientização ambiental e práticas sustentáveis entre os alunos.
-              Cada um desses pequenos espaços de terra, mesmo os mais reduzidos, fará diferença ao ser aproveitado, mostrando o potencial de áreas que antes eram esquecidas. A meta é que essas hortas contribuam para a alimentação escolar e para a doação de alimentos, reforçando o papel da escola como um agente de mudança social.
-              O projeto envolverá alunos, professores e funcionários, que colaborarão em conjunto para transformar essas áreas, tornando-as produtivas e capazes de gerar impacto positivo na comunidade. Será uma oportunidade de aprendizado e ação coletiva, com foco em sustentabilidade e solidariedade.
-            </p>
+          <div class="container" data-aos="fade-up">
+            <div class="row">
+              <div class="col-12">
+                <div class="custom-accordion" id="accordion-faq">
+                  <div class="accordion-item">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse-faq-1">
+                        Como os alimentos cultivados nas hortas serão utilizados?
+                      </button>
+                    </h2>
+
+                    <div id="collapse-faq-1" class="collapse show" aria-labelledby="headingOne"
+                      data-parent="#accordion-faq">
+                      <div class="accordion-body">
+                        Os alimentos cultivados nas hortas da escola serão utilizados em atividades pedagógicas, como
+                        projetos culinários e aulas sobre sustentabilidade. Além disso, parte da produção será utilizada
+                        como alimentação para os próprios alunos e serão também doada para instituições de caridade e
+                        famílias carentes da comunidade local.
+                      </div>
+                    </div>
+                  </div>
+                  <!-- .accordion-item -->
+
+                  <div class="accordion-item">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse-faq-3">
+                        Quem pode participar do projeto de hortas?
+                      </button>
+                    </h2>
+
+                    <div id="collapse-faq-3" class="collapse" aria-labelledby="headingThree"
+                      data-parent="#accordion-faq">
+                      <div class="accordion-body">
+                        O projeto é aberto para alunos, professores e funcionários da Etec de Hortolândia. Todos são
+                        convidados a participar nas diferentes etapas, desde o planejamento até o cultivo e a colheita,
+                        promovendo um ambiente colaborativo e de aprendizado.
+                      </div>
+                    </div>
+                  </div>
+                  <!-- .accordion-item -->
+
+                </div>
+              </div>
+            </div>
           </div>
-          
-          <div class="col-lg-6 order-1 order-lg-2 text-center">
-            <img src="assets/img/Logotipo-projeto-simples-Photoroom.png" alt="" class="logo-projeto-parte-descricao-do-projeto">
-          </div>
-        </div> <div class="image-align-center">
-          <img src="assets/img/horta.jpg" alt="">
-        </div>
-      </div><!-- End Tab Content Item --> 
-    </section><!--/Projeto Section-->
+        </section><!-- /Faq Section -->
 
-    <!-- Faq Section -->
-    <section id="faq" class="faq section">
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Perguntas frequentes</h2>
-        <p>Perguntas frequentes</p>
-      </div><!-- End Section Title -->
+        <!-- Team Section -->
+        <section id="team" class="team section">
 
-      <div class="container" data-aos="fade-up">
-        <div class="row">
-          <div class="col-12">
-            <div class="custom-accordion" id="accordion-faq">
-              <div class="accordion-item">
-                <h2 class="mb-0">
-                  <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-1">
-                    Como os alimentos cultivados nas hortas serão utilizados?
-                  </button>
-                </h2>
+          <!-- Section Title -->
+          <div class="container section-title" data-aos="fade-up">
+            <h2>Equipe</h2>
+            <p>Conheça nossa equipe</p>
+          </div><!-- End Section Title -->
 
-                <div id="collapse-faq-1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion-faq">
-                  <div class="accordion-body">
-                    Os alimentos cultivados nas hortas da escola serão utilizados em atividades pedagógicas, como projetos culinários e aulas sobre sustentabilidade. Além disso, parte da produção será utilizada como alimentação para os próprios alunos e serão também doada para instituições de caridade e famílias carentes da comunidade local. 
+          <div class="container">
+
+            <div class="row gy-4">
+
+              <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                <div class="team-member">
+                  <div class="member-img">
+                    <img src="giovanne-avatar.jfif" class="img-fluid" alt="">
+                    <div class="social">
+                      <a><i class="bi bi-twitter-x"></i></a>
+                      <a><i class="bi bi-facebook"></i></a>
+                      <a><i class="bi bi-instagram"></i></a>
+                      <a><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                  <div class="member-info">
+                    <h4>Giovanne</h4>
+                    <span>Líder de projetos</span>
                   </div>
                 </div>
-              </div>
-            <!-- .accordion-item -->
+              </div><!-- End Team Member -->
 
-            <div class="accordion-item">
-              <h2 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-3">
-                  Quem pode participar do projeto de hortas?
-                </button>
-              </h2>
-
-              <div id="collapse-faq-3" class="collapse" aria-labelledby="headingThree" data-parent="#accordion-faq">
-                <div class="accordion-body">
-                  O projeto é aberto para alunos, professores e funcionários da Etec de Hortolândia. Todos são convidados a participar nas diferentes etapas, desde o planejamento até o cultivo e a colheita, promovendo um ambiente colaborativo e de aprendizado.
+              <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                <div class="team-member">
+                  <div class="member-img">
+                    <img src="gustavo-avatar.jfif" class="img-fluid" alt="">
+                    <div class="social">
+                      <a><i class="bi bi-twitter-x"></i></a>
+                      <a><i class="bi bi-facebook"></i></a>
+                      <a><i class="bi bi-instagram"></i></a>
+                      <a><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                  <div class="member-info">
+                    <h4>Gustavo</h4>
+                    <span>Analista de projetos</span>
+                  </div>
                 </div>
-              </div>
+              </div><!-- End Team Member -->
+
+              <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                <div class="team-member">
+                  <div class="member-img">
+                    <img src="diogo-avatar.jfif" class="img-fluid" alt="">
+                    <div class="social">
+                      <a><i class="bi bi-twitter-x"></i></a>
+                      <a><i class="bi bi-facebook"></i></a>
+                      <a><i class="bi bi-instagram"></i></a>
+                      <a><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                  <div class="member-info">
+                    <h4>Diogo</h4>
+                    <span>Desenvolvedor Front-End</span>
+                  </div>
+                </div>
+              </div><!-- End Team Member -->
+
+              <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+                <div class="team-member">
+                  <div class="member-img">
+                    <img src="mendes-avatar.jfif" class="img-fluid" alt="">
+                    <div class="social">
+                      <a><i class="bi bi-twitter-x"></i></a>
+                      <a><i class="bi bi-facebook"></i></a>
+                      <a><i class="bi bi-instagram"></i></a>
+                      <a><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                  <div class="member-info">
+                    <h4>André</h4>
+                    <span>Desenvolvedor Back-End</span>
+                  </div>
+                </div>
+              </div><!-- End Team Member -->
+
             </div>
-            <!-- .accordion-item -->
 
           </div>
-        </div>
-      </div>
-      </div>
-    </section><!-- /Faq Section -->
 
-    <!-- Team Section -->
-    <section id="team" class="team section">
+          <div class="container section-title" data-aos="fade-up" id="espaco-titulo-professores">
+            <h2>Professores</h2>
+            <p>Professores auxiliares</p>
+          </div><!-- End Section Title -->
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Equipe</h2>
-        <p>Conheça nossa equipe</p>
-      </div><!-- End Section Title -->
+          <div class="container">
 
-      <div class="container">
+            <div class="row gy-4" id="center-professores">
 
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="sem-foto-perfil.avif" class="img-fluid" alt="">
-                <div class="social">
-                  <a><i class="bi bi-twitter-x"></i></a>
-                  <a><i class="bi bi-facebook"></i></a>
-                  <a><i class="bi bi-instagram"></i></a>
-                  <a><i class="bi bi-linkedin"></i></a>
+              <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                <div class="team-member">
+                  <div class="member-img">
+                    <img src="sem-foto-perfil.avif" class="img-fluid" alt="">
+                    <div class="social">
+                      <a><i class="bi bi-twitter-x"></i></a>
+                      <a><i class="bi bi-facebook"></i></a>
+                      <a><i class="bi bi-instagram"></i></a>
+                      <a><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                  <div class="member-info">
+                    <h4>Fernanda</h4>
+                    <span>Professora de Análise e projeto de Sistemas</span>
+                  </div>
                 </div>
-              </div>
-              <div class="member-info">
-                <h4>Giovanne</h4>
-                <span>Líder de projetos</span>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
+              </div><!-- End Team Member -->
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="sem-foto-perfil.avif" class="img-fluid" alt="">
-                <div class="social">
-                  <a><i class="bi bi-twitter-x"></i></a>
-                  <a><i class="bi bi-facebook"></i></a>
-                  <a><i class="bi bi-instagram"></i></a>
-                  <a><i class="bi bi-linkedin"></i></a>
+              <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                <div class="team-member">
+                  <div class="member-img">
+                    <img src="sem-foto-perfil.avif" class="img-fluid" alt="">
+                    <div class="social">
+                      <a><i class="bi bi-twitter-x"></i></a>
+                      <a><i class="bi bi-facebook"></i></a>
+                      <a><i class="bi bi-instagram"></i></a>
+                      <a><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                  <div class="member-info">
+                    <h4>Priscila</h4>
+                    <span>Professora de Banco de Dados</span>
+                  </div>
                 </div>
-              </div>
-              <div class="member-info">
-                <h4>Gustavo</h4>
-                <span>Analista de projetos</span>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
+              </div><!-- End Team Member -->
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="sem-foto-perfil.avif" class="img-fluid" alt="">
-                <div class="social">
-                  <a><i class="bi bi-twitter-x"></i></a>
-                  <a><i class="bi bi-facebook"></i></a>
-                  <a><i class="bi bi-instagram"></i></a>
-                  <a><i class="bi bi-linkedin"></i></a>
+              <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                <div class="team-member">
+                  <div class="member-img">
+                    <img src="sem-foto-perfil.avif" class="img-fluid" alt="">
+                    <div class="social">
+                      <a><i class="bi bi-twitter-x"></i></a>
+                      <a><i class="bi bi-facebook"></i></a>
+                      <a><i class="bi bi-instagram"></i></a>
+                      <a><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                  <div class="member-info">
+                    <h4>Célia</h4>
+                    <span>Professora de Programação Web</span>
+                  </div>
                 </div>
-              </div>
-              <div class="member-info">
-                <h4>Diogo</h4>
-                <span>Desenvolvedor Front-End</span>
-              </div>
+              </div><!-- End Team Member -->
+
             </div>
-          </div><!-- End Team Member -->
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="sem-foto-perfil.avif" class="img-fluid" alt="">
-                <div class="social">
-                  <a><i class="bi bi-twitter-x"></i></a>
-                  <a><i class="bi bi-facebook"></i></a>
-                  <a><i class="bi bi-instagram"></i></a>
-                  <a><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>André</h4>
-                <span>Desenvolvedor Back-End</span>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
+          </div>
 
-        </div>
+        </section><!-- /Team Section -->
 
-      </div>
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+          <!-- Section Title -->
+          <div class="container section-title" data-aos="fade-up">
+            <h2>Contato</h2>
+            <p>Compartilhe sua ideia</p>
+          </div><!-- End Section Title -->
 
-    </section><!-- /Team Section -->
-
-    <!-- Contact Section -->
-<section id="contact" class="contact section">
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-      <h2>Contato</h2>
-      <p>Compartilhe sua ideia</p>
-  </div><!-- End Section Title -->
-
-  <div class="container" data-aos="fade" data-aos-delay="100">
-      <div class="row gy-4">
-          <div class="col-lg-4">
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+          <div class="container" data-aos="fade" data-aos-delay="100">
+            <div class="row gy-4">
+              <div class="col-lg-4">
+                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
                   <i class="bi bi-geo-alt flex-shrink-0"></i>
                   <div>
-                      <h3>Local</h3>
-                      <p>Etec de Hortolândia</p>
+                    <h3>Local</h3>
+                    <p>Etec de Hortolândia</p>
                   </div>
-              </div><!-- End Info Item -->
+                </div><!-- End Info Item -->
 
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
                   <i class="bi bi-telephone flex-shrink-0"></i>
                   <div>
-                      <h3>Telefone</h3>
-                      <p>+55 19 3897-3727</p>
+                    <h3>Telefone</h3>
+                    <p>+55 19 3897-3727</p>
                   </div>
-              </div><!-- End Info Item -->
+                </div><!-- End Info Item -->
 
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
                   <i class="bi bi-envelope flex-shrink-0"></i>
                   <div>
-                      <h3>Email</h3>
-                      <p>e115.secretaria@etec.sp.gov.br</p>
+                    <h3>Email</h3>
+                    <p>e115.secretaria@etec.sp.gov.br</p>
                   </div>
-              </div><!-- End Info Item -->
-          </div>
+                </div><!-- End Info Item -->
+              </div>
 
-          <div class="col-lg-8">
-              <form id="contactForm" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="col-lg-8">
+                <form id="contactForm" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
                   <div class="row gy-4">
-                      <div class="col-md-6">
-                          <input type="text" name="name" class="form-control" placeholder="Nome" required="">
-                      </div>
+                    <div class="col-md-6">
+                      <input type="text" name="name" class="form-control" placeholder="Nome" required="">
+                    </div>
 
-                      <div class="col-md-6 ">
-                          <input type="email" class="form-control" name="email" placeholder="Email" required="">
-                      </div>
+                    <div class="col-md-6 ">
+                      <input type="email" class="form-control" name="email" placeholder="Email" required="">
+                    </div>
 
-                      <div class="col-md-12">
-                          <input type="text" class="form-control" name="subject" placeholder="Sugestão para o espaço" required="">
-                      </div>
+                    <div class="col-md-12">
+                      <input type="text" class="form-control" name="subject" placeholder="Sugestão para o espaço"
+                        required="">
+                    </div>
 
-                      <div class="col-md-12">
-                          <textarea class="form-control" name="message" rows="6" placeholder="Descreva o projeto" required=""></textarea>
-                      </div>
+                    <div class="col-md-12">
+                      <textarea class="form-control" name="message" rows="6" placeholder="Descreva o projeto"
+                        required=""></textarea>
+                    </div>
 
-                      <div class="col-md-12 text-center">
-                          <div class="loading">Enviando</div>
-                          <div class="error-message"></div>
-                          <div class="sent-message">Formulário enviado com sucesso, obrigado!</div>
+                    <div class="col-md-12 text-center">
+                      <div class="loading">Enviando</div>
+                      <div class="error-message"></div>
+                      <div class="sent-message">Formulário enviado com sucesso, obrigado!</div>
 
-                          <button type="button" id="sendMessage">Enviar</button>
-                          <input type="reset" id="sendMessage" value="Limpar">
-                      </div>
+                      <button type="button" id="sendMessage">Enviar</button>
+                      <input type="reset" id="sendMessage" value="Limpar">
+                    </div>
                   </div>
-              </form>
-          </div><!-- End Contact Form -->
-      </div>
-  </div>
-</section><!-- /Contact Section -->
+                </form>
+              </div><!-- End Contact Form -->
+            </div>
+          </div>
+        </section><!-- /Contact Section -->
 
   </main>
 
   <footer id="footer" class="footer dark-background">
-    <div class="container"> 
+    <div class="container">
       <h3 class="sitename">Etec de Hortolândia</h3>
-      <p>Projeto de site desenvolvido por alunos da Etec de Hortolãndia</p>
+      <p>Trabalho acadêmico sem fins lucrativos.</p>
       <div class="social-links d-flex justify-content-center">
         <a href="#footer"><i class="bi bi-twitter-x"></i></a>
         <a href="#footer"><i class="bi bi-facebook"></i></a>
@@ -760,21 +987,21 @@
       </div>
       <div class="container">
         <div class="copyright">
-            <strong class="px-1 sitename">1DsA-A - Grupo 1</strong> <span>Todos os direitos reservados.</span>
+          <strong class="px-1 sitename">Revitalizando Espaços - </strong> <span>Todos os direitos reservados.</span>
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
           <!-- You can delete the links only if you've purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Desenvolvido por <a href="#contact">Giovanne, Gustavo, Diogo, André.</a>
         </div>
       </div>
     </div>
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
