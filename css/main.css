@@ -2626,3 +2626,33 @@ border-radius: 50px;
 #ods15-img{
   width: 70%;
 }
+
+
+#acontece-etec p,
+#projeto p{
+  text-align: justify;
+
+}
+
+
+
+#acontece-etec{
+margin: -100px 0px;
+}
+
+#acontece-etec .col-lg-6{
+  width: 100%;
+  }
+
+
+
+
+
+
+  #center-professores{
+    justify-content: center;
+  }
+
+  #espaco-titulo-professores{
+    margin-top: 60px;
+  }
